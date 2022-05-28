@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Schedule Page</title>
+        <link rel="stylesheet" href="scheduleCssForm.css">
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="container-date">
+                <h2 class="heading"> Welcome to CSC350SP22G Laundry </h2>
+                <hr>
+                <h3 class="heading-days"> We are open 7/24</h3>
+                <h4>Notice:</h4>
+                <p>Each appartment unit has three (3) hours of use every week. Thank you for booking your time spot!</p>
+                <hr>
+                <h4 class="heading-phone"> Phone: 000-123-0001</h4>
+
+            </div>
+            <div class="container-form">
+                <form action="#">
+                    <h2 class="heading heading-yellow"> Make Your Reservation </h2>
+                    <div class="form-field">
+                        <p>Unit Number: 
+                            <input type="number" placeholder="Unit Number">
+                        </p>
+                        <p>Date: 
+                            <input type="date" placeholder="MM/dd/YYYY">
+                            <br> <br>Your Time Spot
+                            <select input type="text" id="hours" name="hours" size="1">
+                                <option value="spot1">12AM-3AM</option>
+                                <option value="spot2">3AM-6AM</option>
+                                <option value="spot3">6AM-9AM</option>
+                                <option value="spot4">9AM-12PM</option>
+                                <option value="spot5">12PM-3PM</option>
+                                <option value="spot6">3PM-6PM</option>
+                                <option value="spot7">6PM-9PM</option>
+                                <option value="spot8">9PM-12AM</option>
+                            </select> 
+                        </p>                      
+                        
+                    </div>
+                    <button type ="button" class="btn">Submit</button>
+                </form>
+
+            </div>
+        </div>
+    </body>
+</html>

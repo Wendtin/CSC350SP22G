@@ -1,0 +1,105 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: rgb(248, 250, 252);
+    letter-spacing: 1px;
+}
+.container{
+    background-color: aqua;
+    margin: 200px;
+    box-shadow: 10px 15px 20px rgba(0, 0, 0, .1);
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+.container-date{
+    background-color: rgba(0, 0, 0, .20);
+    padding: 50px;
+    outline: 3px dashed;
+    outline-offset: -20px;
+    text-align: center;
+}
+.heading{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.heading-days{
+    color: rgb(2, 78, 53);
+    font-size: 25px;
+}
+.heading-phone{
+    color: rgb(2, 78, 53);
+    font-size: 15px;
+}
+.container-form{
+    padding: 20px 0px;
+    margin: 0% auto;
+    color: rgb(2, 78, 53);       
+}
+form{
+    display: grid;
+    grid-row-gap:20px;
+}
+
+input, select{
+pad: 10px 15px;
+
+}
+form p{
+    font-weight: 600;
+}
+.form-field{
+    display: block;
+    justify-content: center;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    justify-content: space-between;
+}
+.btn{
+    background-color: rgb(2, 78, 53);
+    font-size: 18px;
+    color: rgb(248, 250, 252);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 5px 8px;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+
+}
+.btn:hover{
+    transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -o-transform: scale(1.03);
+    
+}
+input[type=number]{
+    width: auto;
+    font-size: 14px;
+}
+input[type=date]{
+    width: auto;
+    font-size: 14px;
+}
+input[type=number]:hover{
+    transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -o-transform: scale(1.03);
+    
+}
+input[type=date]:hover{
+    transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -o-transform: scale(1.03);
+    
+}
+input[type=placeholder]{
+    width: auto;
+    font-size: 18px;
+}
